@@ -18,7 +18,7 @@ export default function HomePage() {
     formData.append("jd", jd);
 
     try {
-      const res = await fetch("http://16.171.65.33:8000/upload/", {
+      const res = await fetch("http::8000/upload/", {
         method: "POST",
         body: formData
       });
